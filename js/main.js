@@ -65,3 +65,16 @@ function Encriptar() {
   function Transpasar() {
     document.getElementById("textoEncript").value = textoDecof;
   }
+
+  //MANEJO DE ACENTOS 
+  document.getElementById("textoEncript").addEventListener('input', function(){
+    var contenido =  document.getElementById("textoEncript").value;
+
+    contenido=contenido.toLowerCase();
+    
+    // Filtrar solo letras minúsculas del alfabeto inglés
+    contenido = contenido.replace(/[^a-z\n]/g, '');
+    
+    // Actualizar el contenido del textarea
+    document.getElementById("textoEncript").value = contenido;
+  });
