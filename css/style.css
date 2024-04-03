@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%; /* Esto hace que 1rem sea igual a 10px (10px es el 62.5% de 16px) */
+  }  
+
 body{
     background: #E9ECF8;
     font-family: 'Inter', sans-serif;
@@ -5,13 +9,13 @@ body{
 }
 
 header{
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
 
 .ingresarTexto{
     text-align: center;
     height: 80vh;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 
 .ingresarTexto textarea{
@@ -19,13 +23,13 @@ header{
     border: none;
     background: #E9ECF8;
     color: #0A3871;
-    font-size: 32px;
+    font-size: 3.2rem;
     width: 100%;
     resize: none;
-    margin: 30px auto;
+    margin: 3rem auto;
     outline: none;
     height: 50%;
-    line-height: 48px;
+    line-height: 4.8rem;
 }
 
 .ingresarTexto textarea::placeholder{
@@ -38,22 +42,22 @@ header{
 }
 
 .advertencia{
-    margin: 20px auto;
+    margin: 2rem auto;
 }
 
 .advertencia p{
     color: #495057;
-    font-size: 12px;
+    font-size: 1.2rem;
     vertical-align: top;
-    line-height: 18px;
+    line-height: 1.8rem;
     display: inline;
-    margin-left: 5px;
+    margin-left: .5rem;
 }
 
 .boton{
     display: inline;
     width: 100%;
-    border-radius: 24px;
-    font-size: 16px;
-    height: 50px;
+    border-radius: 2.4rem;
+    font-size: 1.6rem;
+    height: 5rem;
 }
