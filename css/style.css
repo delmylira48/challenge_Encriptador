@@ -126,6 +126,14 @@ header {
   background-color: #d7dadd; /* Color de fondo oscuro cuando el botón está activo */
 }
 
+#textoACopiar{
+  font-size: 2rem;
+  white-space: normal;
+  word-wrap: break-word;
+  margin-bottom: 2rem;
+  line-height: 1.3;
+}
+
 /* RESPONSIVE TABLETA */
 @media screen and (min-width: 768px) {
     .logoAlura{
@@ -152,21 +160,11 @@ header {
         height: 6rem;
     }
 
-    .botonCopiar{
+    .botonCopiar, .botonTranspasar{
         display: none;
+        width: 100%;
       }
-      
-    .botonTranspasar{
-      display: none;
-    }
-    
-    #textoACopiar{
-      font-size: 2rem;
-      white-space: normal;
-      word-wrap: break-word;
-      margin-bottom: 2rem;
-      line-height: 1.3;
-    }
+
     
 }
 
@@ -216,6 +214,11 @@ header {
     .svgDecodificar{
         display: inline;
         width: 100%;
+    }
+
+    .botonCopiar, .botonTranspasar{
+      display: none;
+      width: 100%;
     }
 
 }
