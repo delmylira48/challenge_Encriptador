@@ -124,7 +124,7 @@ header {
     }
     
     .ingresarTexto textarea{
-        height: 80%;
+        height: 70%;
     }
 
     .botones{
@@ -143,4 +143,54 @@ header {
         display: none;
       }
     
+}
+
+/*  RESPONSIVO DESKTOP */
+@media screen and (min-width: 1024px) {
+    header{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    header .logoAlura{
+        margin-bottom: 0px;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .ingresarTexto{
+        width: 60%;
+        margin-top: 0;
+    }
+
+    .ingresarTexto textarea{
+        height: 65%;
+    }
+
+    .mostrarTextoResuelto{
+        width: 25%;
+        margin-top: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .botones{
+        width: 70%;
+        margin: auto;
+    }
+
+    .boton{
+        width: calc(55% - 4rem);
+        padding: 0rem;
+        height: 4rem;
+    }
+
+    .svgDecodificar{
+        display: inline;
+        width: 100%;
+    }
+
 }
