@@ -79,6 +79,10 @@ header {
   color: white;
 }
 
+.botonAzul:active {
+  background-color: #062142; /* Color de fondo oscuro cuando el botón está activo */
+}
+
 .mostrarTextoResuelto {
   width: 90%;
   margin: 5rem auto;
@@ -111,6 +115,15 @@ header {
 
 .botonCopiar{
   display: none;
+  background-color: white;
+}
+
+.botonTranspasar{
+  display: none;
+}
+
+.botonCopiar:active {
+  background-color: #d7dadd; /* Color de fondo oscuro cuando el botón está activo */
 }
 
 /* RESPONSIVE TABLETA */
@@ -142,6 +155,18 @@ header {
     .botonCopiar{
         display: none;
       }
+      
+    .botonTranspasar{
+      display: none;
+    }
+    
+    #textoACopiar{
+      font-size: 2rem;
+      white-space: normal;
+      word-wrap: break-word;
+      margin-bottom: 2rem;
+      line-height: 1.3;
+    }
     
 }
 
