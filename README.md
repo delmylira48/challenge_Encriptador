@@ -6,3 +6,5 @@ Challenge Encriptador del programa Oracle Next Education
 - La letra "a" es convertida para "ai"
 - La letra "o" es convertida para "ober"
 - La letra "u" es convertida para "ufat"
+
+*El proyecto es responsivo y hace uso del cortapapeles*
